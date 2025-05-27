@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: latest
       - run: npm ci
-      - run: npx resumed resume.json --theme modern
+      - run: npm exec resumed resume.json -- --theme jsonresume-theme-modern
   deploy:
     needs: build
     permissions:
