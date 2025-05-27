@@ -7,9 +7,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      - html_path: ./resume.html
-      - pdf_path: ./resume.pdf
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -17,4 +14,15 @@ jobs:
           node-version: latest
       - run: npm ci
       - run: npm test
-      - run: npx resumed ${}
+      - run: npx resumed resume.json --theme modern
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environmnet:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/deploy-page@v4

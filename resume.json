@@ -3,7 +3,7 @@
   "basics": {
     "name": "나철웅",
     "label": "AI Researcher & Engineer",
-    "image": "",
+    "image": "file://home/bartolv/Documents/jsonresume/img/cv_bs.png",
     "email": "skcjfdnd1996@gmail.com",
     "url": "",
     "summary": "컴퓨터 비전과 자연어 처리 기반 딥러닝 모델 연구 경험을 바탕으로, ~~~AI 엔지니어입니다.",
@@ -21,9 +21,9 @@
         "url": "https://github.com/GimmeSpoon"
       },
       {
-        "network": "Scholar",
+        "network": "LinkedIn",
         "username": "나철웅",
-        "url": "https://scholar.google.com/citations?user=8jluuhYAAAAJ&hl=ko"
+        "url": "https://www.linkedin.com/in/%EC%B2%A0%EC%9B%85-%EB%82%98-6103a32b9/"
       }
     ]
   },

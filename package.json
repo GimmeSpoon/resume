@@ -1,7 +1,9 @@
 {
   "dependencies": {
+    "jsonresume-theme-cora": "^0.1.1",
     "jsonresume-theme-even": "^0.23.0",
     "jsonresume-theme-kendall": "^0.2.0",
+    "jsonresume-theme-straightforward": "^0.2.0",
     "jsonresume-theme-umennel": "^0.1.1",
     "puppeteer": "^24.8.2",
     "resumed": "^5.0.0"
