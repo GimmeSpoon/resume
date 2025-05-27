@@ -1,0 +1,185 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "나철웅",
+    "label": "AI Researcher & Engineer",
+    "image": "",
+    "email": "skcjfdnd1996@gmail.com",
+    "url": "",
+    "summary": "컴퓨터 비전과 자연어 처리 기반 딥러닝 모델 연구 경험을 바탕으로, ~~~AI 엔지니어입니다.",
+    "location": {
+      "address": "마포구 월드컵로3길 14",
+      "postalCode": "04024",
+      "city": "서울특별시",
+      "countryCode": "KR",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "GimmeSpoon",
+        "url": "https://github.com/GimmeSpoon"
+      },
+      {
+        "network": "Scholar",
+        "username": "나철웅",
+        "url": "https://scholar.google.com/citations?user=8jluuhYAAAAJ&hl=ko"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "노온 (NO:ON)",
+      "location": "",
+      "description": "",
+      "position": "인턴",
+      "url": "https://github.com/MoonGyu1/bringcon:",
+      "startDate": "2021-10-01",
+      "endDate": "2021-12-31",
+      "summary": "동영상 저작권 거래 플랫폼 BRINGCON API 서버 백엔드 개발",
+      "highlights": [
+        "개발 프로젝트 완수",
+	"창업 경진대회 수상"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "계성고등학교",
+      "url": "",
+      "area": "",
+      "studyType": "",
+      "startDate": "2012-03-01",
+      "endDate": "2015-02-10",
+      "score": ""
+    },
+    {
+      "institution": "서강대학교",
+      "url": "https://sogang.ac.kr",
+      "area": "컴퓨터공학(심화)",
+      "studyType": "학사",
+      "startDate": "2015-02-13",
+      "endDate": "2022-02-??",
+      "score": "3.0/4.3",
+      "courses": [
+        ""
+      ]
+    },
+    {
+      "institution": "서강대학교 대학원",
+      "url": "https://mllab.sogang.ac.kr",
+      "area": "컴퓨터공학과",
+      "studyType": "석사",
+      "startDate": "2022-08-19",
+      "endDate": "2024-08-20",
+      "score": "3.6/4.3",
+      "courses": [
+        ""
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "음원 데이터 증강을 통한 한국어 SVS (Singing Voice Synthesis) 개발",
+      "publisher": "HCI 2022",
+      "releaseDate": "2022-02-21",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "url": "",
+      "summary": ""
+    }
+
+  ],
+  "skills": [
+    {
+      "name": "딥러닝 모델 개발",
+      "level": "Master",
+      "keywords": [
+        "Python",
+        "PyTorch",
+        "Pandas",
+	"Numpy"
+      ]
+    },
+    {
+      "name": "백엔드 개발",
+      "level": "Master",
+      "keywords": [
+        "Javascript",
+        "NodeJS",
+        "HTML",
+	"CSS"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "영어",
+      "fluency": "OPIc IM2"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "Miss Direction",
+      "description": "A mapping engine that misguides you",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": [
+        "GoogleMaps",
+        "Chrome Extension",
+        "Javascript"
+      ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "missdirection.example.com",
+      "roles": [
+        "Team lead",
+        "Designer"
+      ],
+      "entity": "Smoogle",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/sample.resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

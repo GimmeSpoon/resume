@@ -1,0 +1,20 @@
+name: GitHub Jsonresume Hosting
+run-name: Host Jsonresume to Github Pages
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      - html_path: ./resume.html
+      - pdf_path: ./resume.pdf
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: latest
+      - run: npm ci
+      - run: npm test
+      - run: npx resumed ${}
