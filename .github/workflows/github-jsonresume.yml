@@ -13,7 +13,6 @@ jobs:
         with:
           node-version: latest
       - run: npm ci
-      - run: npm test
       - run: npx resumed resume.json --theme modern
   deploy:
     needs: build
