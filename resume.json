@@ -82,42 +82,49 @@
     {
       "name": "음원 데이터 증강을 통한 한국어 SVS (Singing Voice Synthesis) 개발",
       "publisher": "HCI 2022",
-      "releaseDate": "2022-02-21",
-      "url": "",
-      "summary": ""
+      "releaseDate": "2022-02-09",
+      "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11043808",
+      "summary": "실험 수행 및 데이터 증강 구현을 맡았음. 2저자로 등재"
     },
     {
-      "name": "",
-      "publisher": "",
-      "releaseDate": "",
-      "url": "",
-      "summary": ""
+      "name": "Exploration of Lightweight Single Image Denoising with Transformers and Truly Fair Training",
+      "publisher": "ICMR 2023",
+      "releaseDate": "2023-06-12",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3591106.3592265",
+      "summary": "실험 코드 및 비교 모델 구현을 맡았음. 2저자로 등재."
     },
     {
-      "name": "",
-      "publisher": "",
-      "releaseDate": "",
-      "url": "",
-      "summary": ""
+      "name": "Reciprocal Attention Mixing Transformer for Lightweight Image Restoration",
+      "publisher": "NTIRE 2024",
+      "releaseDate": "2024-06-17",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/papers/Choi_Reciprocal_Attention_Mixing_Transformer_for_Lightweight_Image_Restoration_CVPRW_2024_paper.pdf",
+      "summary": "실험 코드 및 비교 모델 구현을 맡았음. 2저자로 등재"
     },
     {
-      "name": "",
-      "publisher": "",
-      "releaseDate": "",
-      "url": "",
-      "summary": ""
+      "name": "Feasibility of Big Data Analytics in Disaster Psychiatry: Impact of Seoul Itaewon Tragedy on Sentiment Distribution on Twitter",
+      "publisher": "Social Science & Medicine",
+      "releaseDate": "2024-08-27",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0277953624007305",
+      "summary": "감정 분석 모델 개발을 담당. 공저자로 등재"
+    },
+    {
+      "name": "DETR을 활용한 자기 회귀 객체 시퀀스 탐지",
+      "publisher": "서강대학교",
+      "releaseDate": "2024-07-17",
+      "url": "https://www.dbpia.co.kr/journal/detail?nodeId=T17048710",
+      "summary": "DETR 기반의 Object Detection 모델 개발"
     }
-
   ],
   "skills": [
     {
-      "name": "딥러닝 모델 개발",
+      "name": "딥러닝 모델 개발 연구",
       "level": "Master",
       "keywords": [
         "Python",
         "PyTorch",
         "Pandas",
-	"Numpy"
+	"Numpy",
+	"Matplotlib"
       ]
     },
     {
@@ -134,47 +141,51 @@
   "languages": [
     {
       "language": "영어",
-      "fluency": "OPIc IM2"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "",
-      "reference": ""
+      "fluency": "3"
     }
   ],
   "projects": [
     {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
+      "name": "공공 정신건강 모니터링 플랫폼 개발",
+      "description": "서강대 신문방송학과, 컴퓨터공학과, 고려대 정신건강의학과 및 외부업체가 참여하여 머신러닝 기술을 활용해 공공 정신건강 지표를 실시간으로 도출할 수 있는 플랫폼 개발 연구",
       "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+        "Social Science & Medicine 저널에 SNS 데이터를 감정 분석 모델로 추론한 연구 결과를 발표함",
+        "초기 목표였던 80% 이상의 정확도를 달성하는 감정 분석 모델 개발",
+        "국회토론회 및 국내 의학 학회에서 연구 성과에 대한 홍보"
       ],
       "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
-        "Javascript"
+        "NLP",
+        "Sentiment Analysis"
       ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "missdirection.example.com",
+      "startDate": "2022-09-01",
+      "endDate": "2024-08-20",
       "roles": [
-        "Team lead",
-        "Designer"
+        "감정 분석 모델 개발",
+        "데이터 분석 및 전처리"
       ],
       "entity": "Smoogle",
-      "type": "application"
+      "type": "research"
+    },
+    {
+      "name": "이미지 복원 경량 딥러닝 모델 개발",
+      "description": "Super Resolution, Image Denoising 등 이미지 복원 분야에서 1M 이내의 parameter를 가지는 경량 딥러닝 모델 개발 연구",
+      "highlights": [
+        "ICMR 2023, NTIRE 2024에서 2저자로 논문 등재"
+      ],
+      "keywords": [
+        "Computer Vision",
+	"Image Restoration",
+	"Super Resolution",
+	"Denoising",
+	"Lightweight"
+      ],
+      "startDate": "2022",
+      "endDate": "2024",
+      "roles": [
+        "실험코드 및 비교모델 구현"
+      ],
+      "entity": "",
+      "type": "research"
     }
   ],
   "meta": {
